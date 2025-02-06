@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <style>
+        :root {
+            --background-color: #f4f4f4;
+            --button-color: #007BFF;
+            --button-hover-color: #0056b3;
+            --text-color: white;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-color: var(--background-color);
+            font-family: Arial, sans-serif;
+        }
+        .button {
+            width: 200px;
+            height: 100px;
+            margin: 20px;
+            font-size: 18px;
+            text-align: center;
+            line-height: 100px;
+            background-color: var(--button-color);
+            color: var(--text-color);
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: var(--button-hover-color);
+        }
+    </style>
+</head>
+<body>
+    <button class="button" onclick="location.href='dahua.html'">查看搭话默契网络</button>
+    <button class="button" onclick="location.href='hurao.html'">查看互扰默契网络</button>
+</body>
+</html>
